@@ -32,7 +32,7 @@ var init = function (window) {
         }
         // TODO 3 / 7 : Call the drawCircle() function 
         var loopsCompleted = 0;
-        while (loopsCompleted <= 100) {
+        while (loopsCompleted <= 10) {
             drawCircle();
             loopsCompleted++;
         }
@@ -47,18 +47,10 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
-            physikz.updatePosition(/* Your Bracket Notation HERE */);
-            physikz.updatePosition(/* Your Bracket Notation HERE */);
-            physikz.updatePosition(/* Your Bracket Notation HERE */);
-            physikz.updatePosition(/* Your Bracket Notation HERE */);
-            physikz.updatePosition(/* Your Bracket Notation HERE */);
+          //deleted previous code to iterateover the array//
 
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-         game.checkCirclePosition(/* Your Bracket Notation HERE */);
-         game.checkCirclePosition(/* Your Bracket Notation HERE */);
-         game.checkCirclePosition(/* Your Bracket Notation HERE */);
-         game.checkCirclePosition(/* Your Bracket Notation HERE */);
-         game.checkCirclePosition(/* Your Bracket Notation HERE */);
+          //deleted previous code to iterateover the array//
 
             // TODO 9 : Iterate over the array
            for (var i = 0; i <= circles.length -1; i++;) {
