@@ -84,10 +84,15 @@
 				moveBoxTo(positionX);
 				if (positionX > boardWidth) {
 					speed *= -1;}
-					if (positionX < 0) (
-						speed = -15 * -1
-					);
+				if (positionX < 0) (
+					speed *= -1;
+				)
 				
+
+				if (positionY > boardWidth) {speed *= -1;}
+				if (positionY > 0) {speed *= -1;
+				}
+
 
 				box.css ('top', newPositionX);
 				box.css ('right', newPositionY);
