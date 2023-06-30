@@ -53,12 +53,11 @@ var init = function (window) {
           //deleted previous code to iterateover the array//
 
             // TODO 9 : Iterate over the array
-           for (var i = 0; i <= circles.length -1; i++;) {
+           for (i = 0; i <= circles.length -1; i++); {
             circles[i].x += circles[i].velocityX;
             circles[i].y += circles[i].velocityY;
             game.checkCirclePosition(circles[i]);
            } 
-            
         }
     
         /* 
